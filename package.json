@@ -2,8 +2,12 @@
   "name": "ts-esm-cjs-dual",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.js"
+  },
   "devDependencies": {
     "typescript": "^4.5.0-dev.20211017"
   },
