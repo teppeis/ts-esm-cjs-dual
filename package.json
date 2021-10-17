@@ -1,0 +1,24 @@
+{
+  "name": "ts-esm-cjs-dual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.5.0-dev.20211017"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teppeis/ts-esm-cjs-dual.git"
+  },
+  "keywords": [],
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teppeis/ts-esm-cjs-dual/issues"
+  },
+  "homepage": "https://github.com/teppeis/ts-esm-cjs-dual#readme"
+}
